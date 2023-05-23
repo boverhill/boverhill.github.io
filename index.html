@@ -3,22 +3,24 @@
   <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>contacts</title>
+    <title>Contacts</title>
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
     <div class="page">
       <div class="page-header cf">
-        <h2>Contacts</h2> 
-        <h3>Total: 2</h3>
+        <h2>Contacts</h2>
+        <h3 id="total_Contacts">Total: 2</h3>
+
 
       </div>
-      <ul class="contact-list">
+
+      <ul class="contact-list" id="contactList">
         <li class="contact-item cf">
             <div class="contact-details">
                 <img class="avatar" src="https://randomuser.me/api/portraits/thumb/women/67.jpg">
                 <h3>iboya vat</h3>
-                <span class="email">EXAMPLE@example.com</span>
+                <span class="email">iboya.vat@example.com</span>
             </div>
             <div class="joined-details">
                    <span class="date">Joined 07/15/15</span>
@@ -36,10 +38,9 @@
         </li>
 
       </ul>
-      <!-- Add pagination links in this section -->
-
+      
+      <div id="pagination"></div>
     </div>
     <script src="js/script.js"></script>
   </body>
 </html>
-
